@@ -1,0 +1,1503 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient'
+    name: CloudSchedulerClient
+    fullName: CloudSchedulerClient
+    children:
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.apiEndpoint
+      - '@google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.auth'
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.close
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.constructor
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.cloudSchedulerStub
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.createJob_2
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.createJob_1
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.createJob
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.deleteJob_2
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.deleteJob_1
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.deleteJob
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.getJob_2
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.getJob_1
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.getJob
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.getProjectId
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.getProjectId_1
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.initialize
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.innerApiCalls
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.jobPath
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.listJobs_1
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.listJobs
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.listJobs_2
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.listJobsAsync
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.listJobsStream
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.locationPath
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.matchJobFromJobName
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.matchLocationFromJobName
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.matchLocationFromLocationName
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.matchProjectFromJobName
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.matchProjectFromLocationName
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.matchProjectFromProjectName
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.pathTemplates
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.pauseJob_2
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.pauseJob_1
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.pauseJob
+      - '@google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.port'
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.projectPath
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.resumeJob_2
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.resumeJob_1
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.resumeJob
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.runJob_2
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.runJob_1
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.runJob
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.scopes
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.servicePath
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.updateJob_2
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.updateJob_1
+      - >-
+        @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.updateJob
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      The Cloud Scheduler API allows external entities to reliably
+       schedule asynchronous jobs.
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.apiEndpoint
+    name: apiEndpoint
+    fullName: apiEndpoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The DNS address for this API service - same as servicePath(),
+      exists for compatibility reasons.
+    syntax:
+      content: static string apiEndpoint
+      return:
+        type:
+          - string
+        description: ''
+    package: '@google-cloud/scheduler'
+  - uid: '@google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.auth'
+    name: auth
+    fullName: auth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'auth: GoogleAuth'
+      return:
+        type:
+          - GoogleAuth
+        description: ''
+    package: '@google-cloud/scheduler'
+  - uid: '@google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.close'
+    name: close()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Terminate the GRPC channel and close the client.
+      The client will no longer be usable and all future behavior is undefined.
+    syntax:
+      content: function close()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.constructor
+    name: CloudSchedulerClient(ClientOptions)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Construct an instance of CloudSchedulerClient.
+    syntax:
+      content: 'new CloudSchedulerClient(opts?: ClientOptions)'
+      parameters:
+        - id: opts
+          type:
+            - ClientOptions
+          description: ''
+          optional: true
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.cloudSchedulerStub
+    name: cloudSchedulerStub
+    fullName: cloudSchedulerStub
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'cloudSchedulerStub?: Promise<[key: string]: Function>'
+      return:
+        type:
+          - 'Promise<[key: string]: Function>'
+        description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.createJob_2
+    name: >-
+      createJob(ICreateJobRequest, Callback<IJob, ICreateJobRequest | null |
+      undefined, Object | null | undefined>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates a job.
+    syntax:
+      content: >-
+        function createJob(request: ICreateJobRequest, callback: Callback<IJob,
+        ICreateJobRequest | null | undefined, Object | null | undefined>)
+      parameters:
+        - id: request
+          type:
+            - ICreateJobRequest
+          description: ''
+        - id: callback
+          type:
+            - >-
+              Callback<IJob, ICreateJobRequest | null | undefined, Object | null
+              | undefined>
+          description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.createJob_1
+    name: >-
+      createJob(ICreateJobRequest, CallOptions, Callback<IJob, ICreateJobRequest
+      | null | undefined, Object | null | undefined>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates a job.
+    syntax:
+      content: >-
+        function createJob(request: ICreateJobRequest, options: CallOptions,
+        callback: Callback<IJob, ICreateJobRequest | null | undefined, Object |
+        null | undefined>)
+      parameters:
+        - id: request
+          type:
+            - ICreateJobRequest
+          description: ''
+        - id: options
+          type:
+            - CallOptions
+          description: ''
+        - id: callback
+          type:
+            - >-
+              Callback<IJob, ICreateJobRequest | null | undefined, Object | null
+              | undefined>
+          description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.createJob
+    name: 'createJob(ICreateJobRequest, gax.CallOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates a job.
+    syntax:
+      content: >-
+        function createJob(request: ICreateJobRequest, options?:
+        gax.CallOptions)
+      parameters:
+        - id: request
+          type:
+            - ICreateJobRequest
+          description: |2-
+
+              The request object that will be sent.
+        - id: options
+          type:
+            - gax.CallOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<Object>
+        description: |-
+          - The promise which resolves to an array.
+            The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.
+            The promise has a method named "cancel" which cancels the ongoing API call.
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.deleteJob_2
+    name: >-
+      deleteJob(IDeleteJobRequest, Callback<IEmpty, IDeleteJobRequest | null |
+      undefined, Object | null | undefined>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Deletes a job.
+    syntax:
+      content: >-
+        function deleteJob(request: IDeleteJobRequest, callback:
+        Callback<IEmpty, IDeleteJobRequest | null | undefined, Object | null |
+        undefined>)
+      parameters:
+        - id: request
+          type:
+            - IDeleteJobRequest
+          description: ''
+        - id: callback
+          type:
+            - >-
+              Callback<IEmpty, IDeleteJobRequest | null | undefined, Object |
+              null | undefined>
+          description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.deleteJob_1
+    name: >-
+      deleteJob(IDeleteJobRequest, CallOptions, Callback<IEmpty,
+      IDeleteJobRequest | null | undefined, Object | null | undefined>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Deletes a job.
+    syntax:
+      content: >-
+        function deleteJob(request: IDeleteJobRequest, options: CallOptions,
+        callback: Callback<IEmpty, IDeleteJobRequest | null | undefined, Object
+        | null | undefined>)
+      parameters:
+        - id: request
+          type:
+            - IDeleteJobRequest
+          description: ''
+        - id: options
+          type:
+            - CallOptions
+          description: ''
+        - id: callback
+          type:
+            - >-
+              Callback<IEmpty, IDeleteJobRequest | null | undefined, Object |
+              null | undefined>
+          description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.deleteJob
+    name: 'deleteJob(IDeleteJobRequest, gax.CallOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Deletes a job.
+    syntax:
+      content: >-
+        function deleteJob(request: IDeleteJobRequest, options?:
+        gax.CallOptions)
+      parameters:
+        - id: request
+          type:
+            - IDeleteJobRequest
+          description: |2-
+
+              The request object that will be sent.
+        - id: options
+          type:
+            - gax.CallOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<Object>
+        description: |-
+          - The promise which resolves to an array.
+            The first element of the array is an object representing [Empty]{@link google.protobuf.Empty}.
+            The promise has a method named "cancel" which cancels the ongoing API call.
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.getJob_2
+    name: >-
+      getJob(IGetJobRequest, Callback<IJob, IGetJobRequest | null | undefined,
+      Object | null | undefined>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets a job.
+    syntax:
+      content: >-
+        function getJob(request: IGetJobRequest, callback: Callback<IJob,
+        IGetJobRequest | null | undefined, Object | null | undefined>)
+      parameters:
+        - id: request
+          type:
+            - IGetJobRequest
+          description: ''
+        - id: callback
+          type:
+            - >-
+              Callback<IJob, IGetJobRequest | null | undefined, Object | null |
+              undefined>
+          description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.getJob_1
+    name: >-
+      getJob(IGetJobRequest, CallOptions, Callback<IJob, IGetJobRequest | null |
+      undefined, Object | null | undefined>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets a job.
+    syntax:
+      content: >-
+        function getJob(request: IGetJobRequest, options: CallOptions, callback:
+        Callback<IJob, IGetJobRequest | null | undefined, Object | null |
+        undefined>)
+      parameters:
+        - id: request
+          type:
+            - IGetJobRequest
+          description: ''
+        - id: options
+          type:
+            - CallOptions
+          description: ''
+        - id: callback
+          type:
+            - >-
+              Callback<IJob, IGetJobRequest | null | undefined, Object | null |
+              undefined>
+          description: ''
+    package: '@google-cloud/scheduler'
+  - uid: '@google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.getJob'
+    name: 'getJob(IGetJobRequest, gax.CallOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets a job.
+    syntax:
+      content: 'function getJob(request: IGetJobRequest, options?: gax.CallOptions)'
+      parameters:
+        - id: request
+          type:
+            - IGetJobRequest
+          description: |2-
+
+              The request object that will be sent.
+        - id: options
+          type:
+            - gax.CallOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<Object>
+        description: |-
+          - The promise which resolves to an array.
+            The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.
+            The promise has a method named "cancel" which cancels the ongoing API call.
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.getProjectId
+    name: getProjectId()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Return the project ID used by this class.
+    syntax:
+      content: function getProjectId()
+      parameters: []
+      return:
+        type:
+          - Promise<string>
+        description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.getProjectId_1
+    name: 'getProjectId(Callback<string, undefined, undefined>)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Return the project ID used by this class.
+    syntax:
+      content: 'function getProjectId(callback: Callback<string, undefined, undefined>)'
+      parameters:
+        - id: callback
+          type:
+            - 'Callback<string, undefined, undefined>'
+          description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.initialize
+    name: initialize()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Initialize the client.
+
+      Performs asynchronous operations (such as authentication) and prepares the
+      client.
+
+      This function will be called automatically when any class method is called
+      for the
+
+      first time, but if you need to initialize it before calling an actual
+      method,
+
+      feel free to call initialize() directly.
+
+      You can await on this method if you want to make sure the client is
+      initialized.
+    syntax:
+      content: function initialize()
+      parameters: []
+      return:
+        type:
+          - 'Promise<[key: string]: Function>'
+        description: A promise that resolves to an authenticated service stub.
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.innerApiCalls
+    name: innerApiCalls
+    fullName: innerApiCalls
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'innerApiCalls: [key: string]: Function'
+      return:
+        type:
+          - '[key: string]: Function'
+        description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.jobPath
+    name: 'jobPath(string, string, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Return a fully-qualified job resource name string.
+    syntax:
+      content: 'function jobPath(project: string, location: string, job: string)'
+      parameters:
+        - id: project
+          type:
+            - string
+          description: ''
+        - id: location
+          type:
+            - string
+          description: ''
+        - id: job
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: Resource name string.
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.listJobs_1
+    name: >-
+      listJobs(IListJobsRequest, CallOptions,
+      PaginationCallback<IListJobsRequest, IListJobsResponse | null | undefined,
+      IJob>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Lists jobs.
+    syntax:
+      content: >-
+        function listJobs(request: IListJobsRequest, options: CallOptions,
+        callback: PaginationCallback<IListJobsRequest, IListJobsResponse | null
+        | undefined, IJob>)
+      parameters:
+        - id: request
+          type:
+            - IListJobsRequest
+          description: ''
+        - id: options
+          type:
+            - CallOptions
+          description: ''
+        - id: callback
+          type:
+            - >-
+              PaginationCallback<IListJobsRequest, IListJobsResponse | null |
+              undefined, IJob>
+          description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.listJobs
+    name: 'listJobs(IListJobsRequest, gax.CallOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Lists jobs.
+    syntax:
+      content: 'function listJobs(request: IListJobsRequest, options?: gax.CallOptions)'
+      parameters:
+        - id: request
+          type:
+            - IListJobsRequest
+          description: |2-
+
+              The request object that will be sent.
+        - id: options
+          type:
+            - gax.CallOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<Object>
+        description: |-
+          - The promise which resolves to an array.
+            The first element of the array is Array of [Job]{@link google.cloud.scheduler.v1.Job}.
+            The client library support auto-pagination by default: it will call the API as many
+            times as needed and will merge results from all the pages into this array.
+
+            When autoPaginate: false is specified through options, the array has three elements.
+            The first element is Array of [Job]{@link google.cloud.scheduler.v1.Job} that corresponds to
+            the one page received from the API server.
+            If the second element is not null it contains the request object of type [ListJobsRequest]{@link google.cloud.scheduler.v1.ListJobsRequest}
+            that can be used to obtain the next page of the results.
+            If it is null, the next page does not exist.
+            The third element contains the raw response received from the API server. Its type is
+            [ListJobsResponse]{@link google.cloud.scheduler.v1.ListJobsResponse}.
+
+            The promise has a method named "cancel" which cancels the ongoing API call.
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.listJobs_2
+    name: >-
+      listJobs(IListJobsRequest, PaginationCallback<IListJobsRequest,
+      IListJobsResponse | null | undefined, IJob>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Lists jobs.
+    syntax:
+      content: >-
+        function listJobs(request: IListJobsRequest, callback:
+        PaginationCallback<IListJobsRequest, IListJobsResponse | null |
+        undefined, IJob>)
+      parameters:
+        - id: request
+          type:
+            - IListJobsRequest
+          description: ''
+        - id: callback
+          type:
+            - >-
+              PaginationCallback<IListJobsRequest, IListJobsResponse | null |
+              undefined, IJob>
+          description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.listJobsAsync
+    name: >-
+      listJobsAsync(protos.google.cloud.scheduler.v1.IListJobsRequest,
+      gax.CallOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Equivalent to <xref:listJobs>, but returns an iterable object.
+
+      for-await-of syntax is used with the iterable to recursively get response
+      element on-demand.
+    syntax:
+      content: >-
+        function listJobsAsync(request?:
+        protos.google.cloud.scheduler.v1.IListJobsRequest, options?:
+        gax.CallOptions)
+      parameters:
+        - id: request
+          type:
+            - protos.google.cloud.scheduler.v1.IListJobsRequest
+          description: |2-
+
+              The request object that will be sent.
+          optional: true
+        - id: options
+          type:
+            - gax.CallOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - AsyncIterable<IJob>
+        description: >-
+          An iterable Object that conforms to @link
+          https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols.
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.listJobsStream
+    name: >-
+      listJobsStream(protos.google.cloud.scheduler.v1.IListJobsRequest,
+      gax.CallOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Equivalent to <xref:listJobs>, but returns a NodeJS Stream object.
+
+      This fetches the paged responses for <xref:listJobs> continuously
+
+      and invokes the callback registered for 'data' event for each element in
+      the
+
+      responses.
+
+
+      The returned object has 'end' method when no more elements are required.
+
+
+      autoPaginate option will be ignored.
+    syntax:
+      content: >-
+        function listJobsStream(request?:
+        protos.google.cloud.scheduler.v1.IListJobsRequest, options?:
+        gax.CallOptions)
+      parameters:
+        - id: request
+          type:
+            - protos.google.cloud.scheduler.v1.IListJobsRequest
+          description: |2-
+
+              The request object that will be sent.
+          optional: true
+        - id: options
+          type:
+            - gax.CallOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - Transform
+        description: >-
+          An object stream which emits an object representing [Job]{@link
+          google.cloud.scheduler.v1.Job} on 'data' event.
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.locationPath
+    name: 'locationPath(string, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Return a fully-qualified location resource name string.
+    syntax:
+      content: 'function locationPath(project: string, location: string)'
+      parameters:
+        - id: project
+          type:
+            - string
+          description: ''
+        - id: location
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: Resource name string.
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.matchJobFromJobName
+    name: matchJobFromJobName(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Parse the job from Job resource.
+    syntax:
+      content: 'function matchJobFromJobName(jobName: string)'
+      parameters:
+        - id: jobName
+          type:
+            - string
+          description: |2-
+
+              A fully-qualified path representing Job resource.
+      return:
+        type:
+          - string | number
+        description: A string representing the job.
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.matchLocationFromJobName
+    name: matchLocationFromJobName(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Parse the location from Job resource.
+    syntax:
+      content: 'function matchLocationFromJobName(jobName: string)'
+      parameters:
+        - id: jobName
+          type:
+            - string
+          description: |2-
+
+              A fully-qualified path representing Job resource.
+      return:
+        type:
+          - string | number
+        description: A string representing the location.
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.matchLocationFromLocationName
+    name: matchLocationFromLocationName(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Parse the location from Location resource.
+    syntax:
+      content: 'function matchLocationFromLocationName(locationName: string)'
+      parameters:
+        - id: locationName
+          type:
+            - string
+          description: |2-
+
+              A fully-qualified path representing Location resource.
+      return:
+        type:
+          - string | number
+        description: A string representing the location.
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.matchProjectFromJobName
+    name: matchProjectFromJobName(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Parse the project from Job resource.
+    syntax:
+      content: 'function matchProjectFromJobName(jobName: string)'
+      parameters:
+        - id: jobName
+          type:
+            - string
+          description: |2-
+
+              A fully-qualified path representing Job resource.
+      return:
+        type:
+          - string | number
+        description: A string representing the project.
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.matchProjectFromLocationName
+    name: matchProjectFromLocationName(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Parse the project from Location resource.
+    syntax:
+      content: 'function matchProjectFromLocationName(locationName: string)'
+      parameters:
+        - id: locationName
+          type:
+            - string
+          description: |2-
+
+              A fully-qualified path representing Location resource.
+      return:
+        type:
+          - string | number
+        description: A string representing the project.
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.matchProjectFromProjectName
+    name: matchProjectFromProjectName(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Parse the project from Project resource.
+    syntax:
+      content: 'function matchProjectFromProjectName(projectName: string)'
+      parameters:
+        - id: projectName
+          type:
+            - string
+          description: |2-
+
+              A fully-qualified path representing Project resource.
+      return:
+        type:
+          - string | number
+        description: A string representing the project.
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.pathTemplates
+    name: pathTemplates
+    fullName: pathTemplates
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'pathTemplates: [key: string]: PathTemplate'
+      return:
+        type:
+          - '[key: string]: PathTemplate'
+        description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.pauseJob_2
+    name: >-
+      pauseJob(IPauseJobRequest, Callback<IJob, IPauseJobRequest | null |
+      undefined, Object | null | undefined>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Pauses a job.
+
+      If a job is paused then the system will stop executing the job
+
+      until it is re-enabled via
+      [ResumeJob](xref:google.cloud.scheduler.v1.CloudScheduler.ResumeJob). The
+
+      state of the job is stored in
+      [state](xref:google.cloud.scheduler.v1.Job.state); if paused it
+
+      will be set to
+      [Job.State.PAUSED](xref:google.cloud.scheduler.v1.Job.State.PAUSED). A job
+      must be in
+      [Job.State.ENABLED](xref:google.cloud.scheduler.v1.Job.State.ENABLED)
+
+      to be paused.
+    syntax:
+      content: >-
+        function pauseJob(request: IPauseJobRequest, callback: Callback<IJob,
+        IPauseJobRequest | null | undefined, Object | null | undefined>)
+      parameters:
+        - id: request
+          type:
+            - IPauseJobRequest
+          description: ''
+        - id: callback
+          type:
+            - >-
+              Callback<IJob, IPauseJobRequest | null | undefined, Object | null
+              | undefined>
+          description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.pauseJob_1
+    name: >-
+      pauseJob(IPauseJobRequest, CallOptions, Callback<IJob, IPauseJobRequest |
+      null | undefined, Object | null | undefined>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Pauses a job.
+
+      If a job is paused then the system will stop executing the job
+
+      until it is re-enabled via
+      [ResumeJob](xref:google.cloud.scheduler.v1.CloudScheduler.ResumeJob). The
+
+      state of the job is stored in
+      [state](xref:google.cloud.scheduler.v1.Job.state); if paused it
+
+      will be set to
+      [Job.State.PAUSED](xref:google.cloud.scheduler.v1.Job.State.PAUSED). A job
+      must be in
+      [Job.State.ENABLED](xref:google.cloud.scheduler.v1.Job.State.ENABLED)
+
+      to be paused.
+    syntax:
+      content: >-
+        function pauseJob(request: IPauseJobRequest, options: CallOptions,
+        callback: Callback<IJob, IPauseJobRequest | null | undefined, Object |
+        null | undefined>)
+      parameters:
+        - id: request
+          type:
+            - IPauseJobRequest
+          description: ''
+        - id: options
+          type:
+            - CallOptions
+          description: ''
+        - id: callback
+          type:
+            - >-
+              Callback<IJob, IPauseJobRequest | null | undefined, Object | null
+              | undefined>
+          description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.pauseJob
+    name: 'pauseJob(IPauseJobRequest, gax.CallOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Pauses a job.
+
+      If a job is paused then the system will stop executing the job
+
+      until it is re-enabled via
+      [ResumeJob](xref:google.cloud.scheduler.v1.CloudScheduler.ResumeJob). The
+
+      state of the job is stored in
+      [state](xref:google.cloud.scheduler.v1.Job.state); if paused it
+
+      will be set to
+      [Job.State.PAUSED](xref:google.cloud.scheduler.v1.Job.State.PAUSED). A job
+      must be in
+      [Job.State.ENABLED](xref:google.cloud.scheduler.v1.Job.State.ENABLED)
+
+      to be paused.
+    syntax:
+      content: 'function pauseJob(request: IPauseJobRequest, options?: gax.CallOptions)'
+      parameters:
+        - id: request
+          type:
+            - IPauseJobRequest
+          description: |2-
+
+              The request object that will be sent.
+        - id: options
+          type:
+            - gax.CallOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<Object>
+        description: |-
+          - The promise which resolves to an array.
+            The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.
+            The promise has a method named "cancel" which cancels the ongoing API call.
+    package: '@google-cloud/scheduler'
+  - uid: '@google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.port'
+    name: port
+    fullName: port
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The port for this API service.
+    syntax:
+      content: static number port
+      return:
+        type:
+          - number
+        description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.projectPath
+    name: projectPath(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Return a fully-qualified project resource name string.
+    syntax:
+      content: 'function projectPath(project: string)'
+      parameters:
+        - id: project
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: Resource name string.
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.resumeJob_2
+    name: >-
+      resumeJob(IResumeJobRequest, Callback<IJob, IResumeJobRequest | null |
+      undefined, Object | null | undefined>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Resume a job.
+
+      This method reenables a job after it has been
+      [Job.State.PAUSED](xref:google.cloud.scheduler.v1.Job.State.PAUSED). The
+
+      state of a job is stored in
+      [Job.state](xref:google.cloud.scheduler.v1.Job.state); after calling this
+      method it
+
+      will be set to
+      [Job.State.ENABLED](xref:google.cloud.scheduler.v1.Job.State.ENABLED). A
+      job must be in
+
+      [Job.State.PAUSED](xref:google.cloud.scheduler.v1.Job.State.PAUSED) to be
+      resumed.
+    syntax:
+      content: >-
+        function resumeJob(request: IResumeJobRequest, callback: Callback<IJob,
+        IResumeJobRequest | null | undefined, Object | null | undefined>)
+      parameters:
+        - id: request
+          type:
+            - IResumeJobRequest
+          description: ''
+        - id: callback
+          type:
+            - >-
+              Callback<IJob, IResumeJobRequest | null | undefined, Object | null
+              | undefined>
+          description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.resumeJob_1
+    name: >-
+      resumeJob(IResumeJobRequest, CallOptions, Callback<IJob, IResumeJobRequest
+      | null | undefined, Object | null | undefined>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Resume a job.
+
+      This method reenables a job after it has been
+      [Job.State.PAUSED](xref:google.cloud.scheduler.v1.Job.State.PAUSED). The
+
+      state of a job is stored in
+      [Job.state](xref:google.cloud.scheduler.v1.Job.state); after calling this
+      method it
+
+      will be set to
+      [Job.State.ENABLED](xref:google.cloud.scheduler.v1.Job.State.ENABLED). A
+      job must be in
+
+      [Job.State.PAUSED](xref:google.cloud.scheduler.v1.Job.State.PAUSED) to be
+      resumed.
+    syntax:
+      content: >-
+        function resumeJob(request: IResumeJobRequest, options: CallOptions,
+        callback: Callback<IJob, IResumeJobRequest | null | undefined, Object |
+        null | undefined>)
+      parameters:
+        - id: request
+          type:
+            - IResumeJobRequest
+          description: ''
+        - id: options
+          type:
+            - CallOptions
+          description: ''
+        - id: callback
+          type:
+            - >-
+              Callback<IJob, IResumeJobRequest | null | undefined, Object | null
+              | undefined>
+          description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.resumeJob
+    name: 'resumeJob(IResumeJobRequest, gax.CallOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Resume a job.
+
+      This method reenables a job after it has been
+      [Job.State.PAUSED](xref:google.cloud.scheduler.v1.Job.State.PAUSED). The
+
+      state of a job is stored in
+      [Job.state](xref:google.cloud.scheduler.v1.Job.state); after calling this
+      method it
+
+      will be set to
+      [Job.State.ENABLED](xref:google.cloud.scheduler.v1.Job.State.ENABLED). A
+      job must be in
+
+      [Job.State.PAUSED](xref:google.cloud.scheduler.v1.Job.State.PAUSED) to be
+      resumed.
+    syntax:
+      content: >-
+        function resumeJob(request: IResumeJobRequest, options?:
+        gax.CallOptions)
+      parameters:
+        - id: request
+          type:
+            - IResumeJobRequest
+          description: |2-
+
+              The request object that will be sent.
+        - id: options
+          type:
+            - gax.CallOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<Object>
+        description: |-
+          - The promise which resolves to an array.
+            The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.
+            The promise has a method named "cancel" which cancels the ongoing API call.
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.runJob_2
+    name: >-
+      runJob(IRunJobRequest, Callback<IJob, IRunJobRequest | null | undefined,
+      Object | null | undefined>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Forces a job to run now.
+      When this method is called, Cloud Scheduler will dispatch the job, even
+      if the job is already running.
+    syntax:
+      content: >-
+        function runJob(request: IRunJobRequest, callback: Callback<IJob,
+        IRunJobRequest | null | undefined, Object | null | undefined>)
+      parameters:
+        - id: request
+          type:
+            - IRunJobRequest
+          description: ''
+        - id: callback
+          type:
+            - >-
+              Callback<IJob, IRunJobRequest | null | undefined, Object | null |
+              undefined>
+          description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.runJob_1
+    name: >-
+      runJob(IRunJobRequest, CallOptions, Callback<IJob, IRunJobRequest | null |
+      undefined, Object | null | undefined>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Forces a job to run now.
+      When this method is called, Cloud Scheduler will dispatch the job, even
+      if the job is already running.
+    syntax:
+      content: >-
+        function runJob(request: IRunJobRequest, options: CallOptions, callback:
+        Callback<IJob, IRunJobRequest | null | undefined, Object | null |
+        undefined>)
+      parameters:
+        - id: request
+          type:
+            - IRunJobRequest
+          description: ''
+        - id: options
+          type:
+            - CallOptions
+          description: ''
+        - id: callback
+          type:
+            - >-
+              Callback<IJob, IRunJobRequest | null | undefined, Object | null |
+              undefined>
+          description: ''
+    package: '@google-cloud/scheduler'
+  - uid: '@google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.runJob'
+    name: 'runJob(IRunJobRequest, gax.CallOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Forces a job to run now.
+      When this method is called, Cloud Scheduler will dispatch the job, even
+      if the job is already running.
+    syntax:
+      content: 'function runJob(request: IRunJobRequest, options?: gax.CallOptions)'
+      parameters:
+        - id: request
+          type:
+            - IRunJobRequest
+          description: |2-
+
+              The request object that will be sent.
+        - id: options
+          type:
+            - gax.CallOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<Object>
+        description: |-
+          - The promise which resolves to an array.
+            The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.
+            The promise has a method named "cancel" which cancels the ongoing API call.
+    package: '@google-cloud/scheduler'
+  - uid: '@google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.scopes'
+    name: scopes
+    fullName: scopes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The scopes needed to make gRPC calls for every method defined
+      in this service.
+    syntax:
+      content: 'static string[] scopes'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.servicePath
+    name: servicePath
+    fullName: servicePath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The DNS address for this API service.
+    syntax:
+      content: static string servicePath
+      return:
+        type:
+          - string
+        description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.updateJob_2
+    name: >-
+      updateJob(IUpdateJobRequest, Callback<IJob, IUpdateJobRequest | null |
+      undefined, Object | null | undefined>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Updates a job.
+
+      If successful, the updated [Job](xref:google.cloud.scheduler.v1.Job) is
+      returned. If the job does
+
+      not exist, `NOT_FOUND` is returned.
+
+
+      If UpdateJob does not successfully return, it is possible for the
+
+      job to be in an
+      [Job.State.UPDATE_FAILED](xref:google.cloud.scheduler.v1.Job.State.UPDATE_FAILED)
+      state. A job in this state may
+
+      not be executed. If this happens, retry the UpdateJob request
+
+      until a successful response is received.
+    syntax:
+      content: >-
+        function updateJob(request: IUpdateJobRequest, callback: Callback<IJob,
+        IUpdateJobRequest | null | undefined, Object | null | undefined>)
+      parameters:
+        - id: request
+          type:
+            - IUpdateJobRequest
+          description: ''
+        - id: callback
+          type:
+            - >-
+              Callback<IJob, IUpdateJobRequest | null | undefined, Object | null
+              | undefined>
+          description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.updateJob_1
+    name: >-
+      updateJob(IUpdateJobRequest, CallOptions, Callback<IJob, IUpdateJobRequest
+      | null | undefined, Object | null | undefined>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Updates a job.
+
+      If successful, the updated [Job](xref:google.cloud.scheduler.v1.Job) is
+      returned. If the job does
+
+      not exist, `NOT_FOUND` is returned.
+
+
+      If UpdateJob does not successfully return, it is possible for the
+
+      job to be in an
+      [Job.State.UPDATE_FAILED](xref:google.cloud.scheduler.v1.Job.State.UPDATE_FAILED)
+      state. A job in this state may
+
+      not be executed. If this happens, retry the UpdateJob request
+
+      until a successful response is received.
+    syntax:
+      content: >-
+        function updateJob(request: IUpdateJobRequest, options: CallOptions,
+        callback: Callback<IJob, IUpdateJobRequest | null | undefined, Object |
+        null | undefined>)
+      parameters:
+        - id: request
+          type:
+            - IUpdateJobRequest
+          description: ''
+        - id: options
+          type:
+            - CallOptions
+          description: ''
+        - id: callback
+          type:
+            - >-
+              Callback<IJob, IUpdateJobRequest | null | undefined, Object | null
+              | undefined>
+          description: ''
+    package: '@google-cloud/scheduler'
+  - uid: >-
+      @google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient.updateJob
+    name: 'updateJob(IUpdateJobRequest, gax.CallOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Updates a job.
+
+      If successful, the updated [Job](xref:google.cloud.scheduler.v1.Job) is
+      returned. If the job does
+
+      not exist, `NOT_FOUND` is returned.
+
+
+      If UpdateJob does not successfully return, it is possible for the
+
+      job to be in an
+      [Job.State.UPDATE_FAILED](xref:google.cloud.scheduler.v1.Job.State.UPDATE_FAILED)
+      state. A job in this state may
+
+      not be executed. If this happens, retry the UpdateJob request
+
+      until a successful response is received.
+    syntax:
+      content: >-
+        function updateJob(request: IUpdateJobRequest, options?:
+        gax.CallOptions)
+      parameters:
+        - id: request
+          type:
+            - IUpdateJobRequest
+          description: |2-
+
+              The request object that will be sent.
+        - id: options
+          type:
+            - gax.CallOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<Object>
+        description: |-
+          - The promise which resolves to an array.
+            The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.
+            The promise has a method named "cancel" which cancels the ongoing API call.
+    package: '@google-cloud/scheduler'
+references:
+  - uid: '@google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient'
+    name: CloudSchedulerClient
+    spec.typeScript:
+      - name: CloudSchedulerClient
+        fullName: CloudSchedulerClient
+        uid: '@google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient'

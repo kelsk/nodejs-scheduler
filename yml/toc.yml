@@ -1,0 +1,9 @@
+- uid: '@google-cloud/scheduler'
+  name: '@google-cloud/scheduler'
+  items:
+    - uid: '@google-cloud/scheduler.cloud_scheduler_client'
+      name: cloud_scheduler_client
+      items:
+        - uid: '@google-cloud/scheduler.cloud_scheduler_client.CloudSchedulerClient'
+          name: CloudSchedulerClient
+          items: []
