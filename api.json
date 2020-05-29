@@ -1,0 +1,4681 @@
+{
+	"id": 0,
+	"name": "@google-cloud/scheduler",
+	"kind": 0,
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 1,
+			"name": "\"cloud_scheduler_client\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/franzih/code/gcp/nodejs-scheduler/src/v1/cloud_scheduler_client.ts",
+			"children": [
+				{
+					"id": 2,
+					"name": "CloudSchedulerClient",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": " The Cloud Scheduler API allows external entities to reliably\n schedule asynchronous jobs.",
+						"tags": [
+							{
+								"tag": "memberof",
+								"text": "v1\n"
+							}
+						]
+					},
+					"children": [
+						{
+							"id": 35,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Construct an instance of CloudSchedulerClient."
+							},
+							"signatures": [
+								{
+									"id": 36,
+									"name": "new CloudSchedulerClient",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Construct an instance of CloudSchedulerClient."
+									},
+									"parameters": [
+										{
+											"id": 37,
+											"name": "opts",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "ClientOptions"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 2,
+										"name": "CloudSchedulerClient"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 59,
+									"character": 59
+								}
+							]
+						},
+						{
+							"id": 9,
+							"name": "_defaults",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 49,
+									"character": 19
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 10,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"indexSignature": [
+										{
+											"id": 11,
+											"name": "__index",
+											"kind": 8192,
+											"kindString": "Index signature",
+											"flags": {
+												"isExported": true
+											},
+											"parameters": [
+												{
+													"id": 12,
+													"name": "method",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {
+														"isExported": true
+													},
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												}
+											],
+											"type": {
+												"type": "reference",
+												"name": "CallSettings"
+											}
+										}
+									],
+									"sources": [
+										{
+											"fileName": "cloud_scheduler_client.ts",
+											"line": 49,
+											"character": 20
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 6,
+							"name": "_gaxGrpc",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 47,
+									"character": 18
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "reference",
+										"name": "GrpcClient"
+									},
+									{
+										"type": "reference",
+										"name": "GrpcClient"
+									}
+								]
+							}
+						},
+						{
+							"id": 5,
+							"name": "_gaxModule",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 46,
+									"character": 20
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "query",
+										"queryType": {
+											"type": "reference",
+											"name": "gax"
+										}
+									},
+									{
+										"type": "query",
+										"queryType": {
+											"type": "reference",
+											"name": "fallback"
+										}
+									}
+								]
+							}
+						},
+						{
+							"id": 4,
+							"name": "_opts",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 45,
+									"character": 15
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ClientOptions"
+							}
+						},
+						{
+							"id": 7,
+							"name": "_protos",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 48,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 8,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "cloud_scheduler_client.ts",
+											"line": 48,
+											"character": 18
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 3,
+							"name": "_terminated",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 44,
+									"character": 21
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"defaultValue": "false"
+						},
+						{
+							"id": 13,
+							"name": "auth",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 50,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "GoogleAuth"
+							}
+						},
+						{
+							"id": 31,
+							"name": "cloudSchedulerStub",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 59,
+									"character": 20
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 32,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"indexSignature": [
+												{
+													"id": 33,
+													"name": "__index",
+													"kind": 8192,
+													"kindString": "Index signature",
+													"flags": {
+														"isExported": true
+													},
+													"parameters": [
+														{
+															"id": 34,
+															"name": "name",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {
+																"isExported": true
+															},
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "Function"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "cloud_scheduler_client.ts",
+													"line": 59,
+													"character": 31
+												}
+											]
+										}
+									}
+								],
+								"name": "Promise"
+							}
+						},
+						{
+							"id": 23,
+							"name": "innerApiCalls",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 57,
+									"character": 15
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 24,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"indexSignature": [
+										{
+											"id": 25,
+											"name": "__index",
+											"kind": 8192,
+											"kindString": "Index signature",
+											"flags": {
+												"isExported": true
+											},
+											"parameters": [
+												{
+													"id": 26,
+													"name": "name",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {
+														"isExported": true
+													},
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												}
+											],
+											"type": {
+												"type": "reference",
+												"name": "Function"
+											}
+										}
+									],
+									"sources": [
+										{
+											"fileName": "cloud_scheduler_client.ts",
+											"line": 57,
+											"character": 16
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 27,
+							"name": "pathTemplates",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 58,
+									"character": 15
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 28,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"indexSignature": [
+										{
+											"id": 29,
+											"name": "__index",
+											"kind": 8192,
+											"kindString": "Index signature",
+											"flags": {
+												"isExported": true
+											},
+											"parameters": [
+												{
+													"id": 30,
+													"name": "name",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {
+														"isExported": true
+													},
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												}
+											],
+											"type": {
+												"type": "reference",
+												"name": "PathTemplate"
+											}
+										}
+									],
+									"sources": [
+										{
+											"fileName": "cloud_scheduler_client.ts",
+											"line": 58,
+											"character": 16
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 45,
+							"name": "apiEndpoint",
+							"kind": 262144,
+							"kindString": "Accessor",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The DNS address for this API service - same as servicePath(),\nexists for compatibility reasons."
+							},
+							"getSignature": [
+								{
+									"id": 46,
+									"name": "__get",
+									"kind": 524288,
+									"kindString": "Get signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The DNS address for this API service - same as servicePath(),\nexists for compatibility reasons."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 276,
+									"character": 24
+								}
+							]
+						},
+						{
+							"id": 47,
+							"name": "port",
+							"kind": 262144,
+							"kindString": "Accessor",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The port for this API service."
+							},
+							"getSignature": [
+								{
+									"id": 48,
+									"name": "__get",
+									"kind": 524288,
+									"kindString": "Get signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The port for this API service."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 283,
+									"character": 17
+								}
+							]
+						},
+						{
+							"id": 49,
+							"name": "scopes",
+							"kind": 262144,
+							"kindString": "Accessor",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The scopes needed to make gRPC calls for every method defined\nin this service."
+							},
+							"getSignature": [
+								{
+									"id": 50,
+									"name": "__get",
+									"kind": 524288,
+									"kindString": "Get signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The scopes needed to make gRPC calls for every method defined\nin this service."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 291,
+									"character": 19
+								}
+							]
+						},
+						{
+							"id": 43,
+							"name": "servicePath",
+							"kind": 262144,
+							"kindString": "Accessor",
+							"flags": {
+								"isStatic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The DNS address for this API service."
+							},
+							"getSignature": [
+								{
+									"id": 44,
+									"name": "__get",
+									"kind": 524288,
+									"kindString": "Get signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The DNS address for this API service."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 268,
+									"character": 24
+								}
+							]
+						},
+						{
+							"id": 202,
+							"name": "close",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 203,
+									"name": "close",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Terminate the GRPC channel and close the client.",
+										"text": "The client will no longer be usable and all future behavior is undefined.\n"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "void"
+											}
+										],
+										"name": "Promise"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 1253,
+									"character": 7
+								}
+							]
+						},
+						{
+							"id": 69,
+							"name": "createJob",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Creates a job.",
+								"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+							},
+							"signatures": [
+								{
+									"id": 70,
+									"name": "createJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Creates a job.",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 71,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"shortText": "\n  The request object that will be sent."
+											},
+											"type": {
+												"type": "reference",
+												"name": "ICreateJobRequest"
+											}
+										},
+										{
+											"id": 72,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "gax.CallOptions"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "tuple",
+												"elements": [
+													{
+														"type": "reference",
+														"name": "IJob"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "ICreateJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 73,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 402,
+																			"character": 69
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												]
+											}
+										],
+										"name": "Promise"
+									}
+								},
+								{
+									"id": 74,
+									"name": "createJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Creates a job.",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 75,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "ICreateJobRequest"
+											}
+										},
+										{
+											"id": 76,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "CallOptions"
+											}
+										},
+										{
+											"id": 77,
+											"name": "callback",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "IJob"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "ICreateJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 78,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 411,
+																			"character": 76
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												],
+												"name": "Callback"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								},
+								{
+									"id": 79,
+									"name": "createJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Creates a job.",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 80,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "ICreateJobRequest"
+											}
+										},
+										{
+											"id": 81,
+											"name": "callback",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "IJob"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "ICreateJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 82,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 419,
+																			"character": 76
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												],
+												"name": "Callback"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 396,
+									"character": 11
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 406,
+									"character": 11
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 415,
+									"character": 11
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 443,
+									"character": 11
+								}
+							]
+						},
+						{
+							"id": 97,
+							"name": "deleteJob",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Deletes a job.",
+								"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Empty]{@link google.protobuf.Empty}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+							},
+							"signatures": [
+								{
+									"id": 98,
+									"name": "deleteJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Deletes a job.",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Empty]{@link google.protobuf.Empty}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 99,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"shortText": "\n  The request object that will be sent."
+											},
+											"type": {
+												"type": "reference",
+												"name": "IDeleteJobRequest"
+											}
+										},
+										{
+											"id": 100,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "gax.CallOptions"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "tuple",
+												"elements": [
+													{
+														"type": "reference",
+														"name": "IEmpty"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IDeleteJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 101,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 582,
+																			"character": 69
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												]
+											}
+										],
+										"name": "Promise"
+									}
+								},
+								{
+									"id": 102,
+									"name": "deleteJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Deletes a job.",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Empty]{@link google.protobuf.Empty}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 103,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "IDeleteJobRequest"
+											}
+										},
+										{
+											"id": 104,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "CallOptions"
+											}
+										},
+										{
+											"id": 105,
+											"name": "callback",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "IEmpty"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IDeleteJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 106,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 591,
+																			"character": 76
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												],
+												"name": "Callback"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								},
+								{
+									"id": 107,
+									"name": "deleteJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Deletes a job.",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Empty]{@link google.protobuf.Empty}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 108,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "IDeleteJobRequest"
+											}
+										},
+										{
+											"id": 109,
+											"name": "callback",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "IEmpty"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IDeleteJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 110,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 599,
+																			"character": 76
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												],
+												"name": "Callback"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 576,
+									"character": 11
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 586,
+									"character": 11
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 595,
+									"character": 11
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 617,
+									"character": 11
+								}
+							]
+						},
+						{
+							"id": 55,
+							"name": "getJob",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Gets a job.",
+								"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+							},
+							"signatures": [
+								{
+									"id": 56,
+									"name": "getJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Gets a job.",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 57,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"shortText": "\n  The request object that will be sent."
+											},
+											"type": {
+												"type": "reference",
+												"name": "IGetJobRequest"
+											}
+										},
+										{
+											"id": 58,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "gax.CallOptions"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "tuple",
+												"elements": [
+													{
+														"type": "reference",
+														"name": "IJob"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IGetJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 59,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 321,
+																			"character": 66
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												]
+											}
+										],
+										"name": "Promise"
+									}
+								},
+								{
+									"id": 60,
+									"name": "getJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Gets a job.",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 61,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "IGetJobRequest"
+											}
+										},
+										{
+											"id": 62,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "CallOptions"
+											}
+										},
+										{
+											"id": 63,
+											"name": "callback",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "IJob"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IGetJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 64,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 330,
+																			"character": 73
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												],
+												"name": "Callback"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								},
+								{
+									"id": 65,
+									"name": "getJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Gets a job.",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 66,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "IGetJobRequest"
+											}
+										},
+										{
+											"id": 67,
+											"name": "callback",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "IJob"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IGetJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 68,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 338,
+																			"character": 73
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												],
+												"name": "Callback"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 315,
+									"character": 8
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 325,
+									"character": 8
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 334,
+									"character": 8
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 356,
+									"character": 8
+								}
+							]
+						},
+						{
+							"id": 51,
+							"name": "getProjectId",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Return the project ID used by this class."
+							},
+							"signatures": [
+								{
+									"id": 52,
+									"name": "getProjectId",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Return the project ID used by this class."
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											}
+										],
+										"name": "Promise"
+									}
+								},
+								{
+									"id": 53,
+									"name": "getProjectId",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Return the project ID used by this class."
+									},
+									"parameters": [
+										{
+											"id": 54,
+											"name": "callback",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													}
+												],
+												"name": "Callback"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 295,
+									"character": 14
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 296,
+									"character": 14
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 302,
+									"character": 14
+								}
+							]
+						},
+						{
+							"id": 38,
+							"name": "initialize",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 39,
+									"name": "initialize",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Initialize the client.\nPerforms asynchronous operations (such as authentication) and prepares the client.\nThis function will be called automatically when any class method is called for the\nfirst time, but if you need to initialize it before calling an actual method,\nfeel free to call initialize() directly.",
+										"text": "You can await on this method if you want to make sure the client is initialized.\n",
+										"returns": "A promise that resolves to an authenticated service stub.\n"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 40,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"indexSignature": [
+														{
+															"id": 41,
+															"name": "__index",
+															"kind": 8192,
+															"kindString": "Index signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 42,
+																	"name": "name",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "string"
+																	}
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "Function"
+															}
+														}
+													]
+												}
+											}
+										],
+										"name": "Promise"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 207,
+									"character": 12
+								}
+							]
+						},
+						{
+							"id": 172,
+							"name": "jobPath",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 173,
+									"name": "jobPath",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Return a fully-qualified job resource name string.",
+										"returns": "Resource name string.\n"
+									},
+									"parameters": [
+										{
+											"id": 174,
+											"name": "project",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 175,
+											"name": "location",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 176,
+											"name": "job",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 1148,
+									"character": 9
+								}
+							]
+						},
+						{
+							"id": 153,
+							"name": "listJobs",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Lists jobs.",
+								"returns": "- The promise which resolves to an array.\n  The first element of the array is Array of [Job]{@link google.cloud.scheduler.v1.Job}.\n  The client library support auto-pagination by default: it will call the API as many\n  times as needed and will merge results from all the pages into this array.\n\n  When autoPaginate: false is specified through options, the array has three elements.\n  The first element is Array of [Job]{@link google.cloud.scheduler.v1.Job} that corresponds to\n  the one page received from the API server.\n  If the second element is not null it contains the request object of type [ListJobsRequest]{@link google.cloud.scheduler.v1.ListJobsRequest}\n  that can be used to obtain the next page of the results.\n  If it is null, the next page does not exist.\n  The third element contains the raw response received from the API server. Its type is\n  [ListJobsResponse]{@link google.cloud.scheduler.v1.ListJobsResponse}.\n\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+							},
+							"signatures": [
+								{
+									"id": 154,
+									"name": "listJobs",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Lists jobs.",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is Array of [Job]{@link google.cloud.scheduler.v1.Job}.\n  The client library support auto-pagination by default: it will call the API as many\n  times as needed and will merge results from all the pages into this array.\n\n  When autoPaginate: false is specified through options, the array has three elements.\n  The first element is Array of [Job]{@link google.cloud.scheduler.v1.Job} that corresponds to\n  the one page received from the API server.\n  If the second element is not null it contains the request object of type [ListJobsRequest]{@link google.cloud.scheduler.v1.ListJobsRequest}\n  that can be used to obtain the next page of the results.\n  If it is null, the next page does not exist.\n  The third element contains the raw response received from the API server. Its type is\n  [ListJobsResponse]{@link google.cloud.scheduler.v1.ListJobsResponse}.\n\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 155,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"shortText": "\n  The request object that will be sent."
+											},
+											"type": {
+												"type": "reference",
+												"name": "IListJobsRequest"
+											}
+										},
+										{
+											"id": 156,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "gax.CallOptions"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "tuple",
+												"elements": [
+													{
+														"type": "array",
+														"elementType": {
+															"type": "reference",
+															"name": "IJob"
+														}
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IListJobsRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															}
+														]
+													},
+													{
+														"type": "reference",
+														"name": "IListJobsResponse"
+													}
+												]
+											}
+										],
+										"name": "Promise"
+									}
+								},
+								{
+									"id": 157,
+									"name": "listJobs",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Lists jobs.",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is Array of [Job]{@link google.cloud.scheduler.v1.Job}.\n  The client library support auto-pagination by default: it will call the API as many\n  times as needed and will merge results from all the pages into this array.\n\n  When autoPaginate: false is specified through options, the array has three elements.\n  The first element is Array of [Job]{@link google.cloud.scheduler.v1.Job} that corresponds to\n  the one page received from the API server.\n  If the second element is not null it contains the request object of type [ListJobsRequest]{@link google.cloud.scheduler.v1.ListJobsRequest}\n  that can be used to obtain the next page of the results.\n  If it is null, the next page does not exist.\n  The third element contains the raw response received from the API server. Its type is\n  [ListJobsResponse]{@link google.cloud.scheduler.v1.ListJobsResponse}.\n\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 158,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "IListJobsRequest"
+											}
+										},
+										{
+											"id": 159,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "CallOptions"
+											}
+										},
+										{
+											"id": 160,
+											"name": "callback",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "IListJobsRequest"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IListJobsResponse"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "reference",
+														"name": "IJob"
+													}
+												],
+												"name": "PaginationCallback"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								},
+								{
+									"id": 161,
+									"name": "listJobs",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Lists jobs.",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is Array of [Job]{@link google.cloud.scheduler.v1.Job}.\n  The client library support auto-pagination by default: it will call the API as many\n  times as needed and will merge results from all the pages into this array.\n\n  When autoPaginate: false is specified through options, the array has three elements.\n  The first element is Array of [Job]{@link google.cloud.scheduler.v1.Job} that corresponds to\n  the one page received from the API server.\n  If the second element is not null it contains the request object of type [ListJobsRequest]{@link google.cloud.scheduler.v1.ListJobsRequest}\n  that can be used to obtain the next page of the results.\n  If it is null, the next page does not exist.\n  The third element contains the raw response received from the API server. Its type is\n  [ListJobsResponse]{@link google.cloud.scheduler.v1.ListJobsResponse}.\n\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 162,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "IListJobsRequest"
+											}
+										},
+										{
+											"id": 163,
+											"name": "callback",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "IListJobsRequest"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IListJobsResponse"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "reference",
+														"name": "IJob"
+													}
+												],
+												"name": "PaginationCallback"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 915,
+									"character": 10
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 925,
+									"character": 10
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 934,
+									"character": 10
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 983,
+									"character": 10
+								}
+							]
+						},
+						{
+							"id": 168,
+							"name": "listJobsAsync",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 169,
+									"name": "listJobsAsync",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Equivalent to {@link listJobs}, but returns an iterable object.",
+										"text": "for-await-of syntax is used with the iterable to recursively get response element on-demand.\n",
+										"returns": "\n  An iterable Object that conforms to @link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols.\n"
+									},
+									"parameters": [
+										{
+											"id": 170,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "\n  The request object that will be sent."
+											},
+											"type": {
+												"type": "reference",
+												"name": "protos.google.cloud.scheduler.v1.IListJobsRequest"
+											}
+										},
+										{
+											"id": 171,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "gax.CallOptions"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "IJob"
+											}
+										],
+										"name": "AsyncIterable"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 1114,
+									"character": 15
+								}
+							]
+						},
+						{
+							"id": 164,
+							"name": "listJobsStream",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 165,
+									"name": "listJobsStream",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Equivalent to {@link listJobs}, but returns a NodeJS Stream object.",
+										"text": "This fetches the paged responses for {@link listJobs} continuously\nand invokes the callback registered for 'data' event for each element in the\nresponses.\n\nThe returned object has 'end' method when no more elements are required.\n\nautoPaginate option will be ignored.\n",
+										"returns": "\n  An object stream which emits an object representing [Job]{@link google.cloud.scheduler.v1.Job} on 'data' event.\n",
+										"tags": [
+											{
+												"tag": "see",
+												"text": "{@link https://nodejs.org/api/stream.html}\n"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 166,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "\n  The request object that will be sent."
+											},
+											"type": {
+												"type": "reference",
+												"name": "protos.google.cloud.scheduler.v1.IListJobsRequest"
+											}
+										},
+										{
+											"id": 167,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "gax.CallOptions"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "Transform"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 1062,
+									"character": 16
+								}
+							]
+						},
+						{
+							"id": 186,
+							"name": "locationPath",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 187,
+									"name": "locationPath",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Return a fully-qualified location resource name string.",
+										"returns": "Resource name string.\n"
+									},
+									"parameters": [
+										{
+											"id": 188,
+											"name": "project",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 189,
+											"name": "location",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 1196,
+									"character": 14
+								}
+							]
+						},
+						{
+							"id": 183,
+							"name": "matchJobFromJobName",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 184,
+									"name": "matchJobFromJobName",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Parse the job from Job resource.",
+										"returns": "A string representing the job.\n"
+									},
+									"parameters": [
+										{
+											"id": 185,
+											"name": "jobName",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "\n  A fully-qualified path representing Job resource."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "number"
+											}
+										]
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 1185,
+									"character": 21
+								}
+							]
+						},
+						{
+							"id": 180,
+							"name": "matchLocationFromJobName",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 181,
+									"name": "matchLocationFromJobName",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Parse the location from Job resource.",
+										"returns": "A string representing the location.\n"
+									},
+									"parameters": [
+										{
+											"id": 182,
+											"name": "jobName",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "\n  A fully-qualified path representing Job resource."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "number"
+											}
+										]
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 1174,
+									"character": 26
+								}
+							]
+						},
+						{
+							"id": 193,
+							"name": "matchLocationFromLocationName",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 194,
+									"name": "matchLocationFromLocationName",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Parse the location from Location resource.",
+										"returns": "A string representing the location.\n"
+									},
+									"parameters": [
+										{
+											"id": 195,
+											"name": "locationName",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "\n  A fully-qualified path representing Location resource."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "number"
+											}
+										]
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 1221,
+									"character": 31
+								}
+							]
+						},
+						{
+							"id": 177,
+							"name": "matchProjectFromJobName",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 178,
+									"name": "matchProjectFromJobName",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Parse the project from Job resource.",
+										"returns": "A string representing the project.\n"
+									},
+									"parameters": [
+										{
+											"id": 179,
+											"name": "jobName",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "\n  A fully-qualified path representing Job resource."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "number"
+											}
+										]
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 1163,
+									"character": 25
+								}
+							]
+						},
+						{
+							"id": 190,
+							"name": "matchProjectFromLocationName",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 191,
+									"name": "matchProjectFromLocationName",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Parse the project from Location resource.",
+										"returns": "A string representing the project.\n"
+									},
+									"parameters": [
+										{
+											"id": 192,
+											"name": "locationName",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "\n  A fully-qualified path representing Location resource."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "number"
+											}
+										]
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 1210,
+									"character": 30
+								}
+							]
+						},
+						{
+							"id": 199,
+							"name": "matchProjectFromProjectName",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 200,
+									"name": "matchProjectFromProjectName",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Parse the project from Project resource.",
+										"returns": "A string representing the project.\n"
+									},
+									"parameters": [
+										{
+											"id": 201,
+											"name": "projectName",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "\n  A fully-qualified path representing Project resource."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "number"
+											}
+										]
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 1244,
+									"character": 29
+								}
+							]
+						},
+						{
+							"id": 111,
+							"name": "pauseJob",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Pauses a job.",
+								"text": "If a job is paused then the system will stop executing the job\nuntil it is re-enabled via {@link google.cloud.scheduler.v1.CloudScheduler.ResumeJob|ResumeJob}. The\nstate of the job is stored in {@link google.cloud.scheduler.v1.Job.state|state}; if paused it\nwill be set to {@link google.cloud.scheduler.v1.Job.State.PAUSED|Job.State.PAUSED}. A job must be in {@link google.cloud.scheduler.v1.Job.State.ENABLED|Job.State.ENABLED}\nto be paused.\n",
+								"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+							},
+							"signatures": [
+								{
+									"id": 112,
+									"name": "pauseJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Pauses a job.",
+										"text": "If a job is paused then the system will stop executing the job\nuntil it is re-enabled via {@link google.cloud.scheduler.v1.CloudScheduler.ResumeJob|ResumeJob}. The\nstate of the job is stored in {@link google.cloud.scheduler.v1.Job.state|state}; if paused it\nwill be set to {@link google.cloud.scheduler.v1.Job.State.PAUSED|Job.State.PAUSED}. A job must be in {@link google.cloud.scheduler.v1.Job.State.ENABLED|Job.State.ENABLED}\nto be paused.\n",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 113,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"shortText": "\n  The request object that will be sent."
+											},
+											"type": {
+												"type": "reference",
+												"name": "IPauseJobRequest"
+											}
+										},
+										{
+											"id": 114,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "gax.CallOptions"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "tuple",
+												"elements": [
+													{
+														"type": "reference",
+														"name": "IJob"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IPauseJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 115,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 663,
+																			"character": 68
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												]
+											}
+										],
+										"name": "Promise"
+									}
+								},
+								{
+									"id": 116,
+									"name": "pauseJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Pauses a job.",
+										"text": "If a job is paused then the system will stop executing the job\nuntil it is re-enabled via {@link google.cloud.scheduler.v1.CloudScheduler.ResumeJob|ResumeJob}. The\nstate of the job is stored in {@link google.cloud.scheduler.v1.Job.state|state}; if paused it\nwill be set to {@link google.cloud.scheduler.v1.Job.State.PAUSED|Job.State.PAUSED}. A job must be in {@link google.cloud.scheduler.v1.Job.State.ENABLED|Job.State.ENABLED}\nto be paused.\n",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 117,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "IPauseJobRequest"
+											}
+										},
+										{
+											"id": 118,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "CallOptions"
+											}
+										},
+										{
+											"id": 119,
+											"name": "callback",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "IJob"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IPauseJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 120,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 672,
+																			"character": 75
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												],
+												"name": "Callback"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								},
+								{
+									"id": 121,
+									"name": "pauseJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Pauses a job.",
+										"text": "If a job is paused then the system will stop executing the job\nuntil it is re-enabled via {@link google.cloud.scheduler.v1.CloudScheduler.ResumeJob|ResumeJob}. The\nstate of the job is stored in {@link google.cloud.scheduler.v1.Job.state|state}; if paused it\nwill be set to {@link google.cloud.scheduler.v1.Job.State.PAUSED|Job.State.PAUSED}. A job must be in {@link google.cloud.scheduler.v1.Job.State.ENABLED|Job.State.ENABLED}\nto be paused.\n",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 122,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "IPauseJobRequest"
+											}
+										},
+										{
+											"id": 123,
+											"name": "callback",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "IJob"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IPauseJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 124,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 680,
+																			"character": 75
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												],
+												"name": "Callback"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 657,
+									"character": 10
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 667,
+									"character": 10
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 676,
+									"character": 10
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 704,
+									"character": 10
+								}
+							]
+						},
+						{
+							"id": 196,
+							"name": "projectPath",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 197,
+									"name": "projectPath",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Return a fully-qualified project resource name string.",
+										"returns": "Resource name string.\n"
+									},
+									"parameters": [
+										{
+											"id": 198,
+											"name": "project",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 1231,
+									"character": 13
+								}
+							]
+						},
+						{
+							"id": 125,
+							"name": "resumeJob",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Resume a job.",
+								"text": "This method reenables a job after it has been {@link google.cloud.scheduler.v1.Job.State.PAUSED|Job.State.PAUSED}. The\nstate of a job is stored in {@link google.cloud.scheduler.v1.Job.state|Job.state}; after calling this method it\nwill be set to {@link google.cloud.scheduler.v1.Job.State.ENABLED|Job.State.ENABLED}. A job must be in\n{@link google.cloud.scheduler.v1.Job.State.PAUSED|Job.State.PAUSED} to be resumed.\n",
+								"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+							},
+							"signatures": [
+								{
+									"id": 126,
+									"name": "resumeJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Resume a job.",
+										"text": "This method reenables a job after it has been {@link google.cloud.scheduler.v1.Job.State.PAUSED|Job.State.PAUSED}. The\nstate of a job is stored in {@link google.cloud.scheduler.v1.Job.state|Job.state}; after calling this method it\nwill be set to {@link google.cloud.scheduler.v1.Job.State.ENABLED|Job.State.ENABLED}. A job must be in\n{@link google.cloud.scheduler.v1.Job.State.PAUSED|Job.State.PAUSED} to be resumed.\n",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 127,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"shortText": "\n  The request object that will be sent."
+											},
+											"type": {
+												"type": "reference",
+												"name": "IResumeJobRequest"
+											}
+										},
+										{
+											"id": 128,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "gax.CallOptions"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "tuple",
+												"elements": [
+													{
+														"type": "reference",
+														"name": "IJob"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IResumeJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 129,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 750,
+																			"character": 69
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												]
+											}
+										],
+										"name": "Promise"
+									}
+								},
+								{
+									"id": 130,
+									"name": "resumeJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Resume a job.",
+										"text": "This method reenables a job after it has been {@link google.cloud.scheduler.v1.Job.State.PAUSED|Job.State.PAUSED}. The\nstate of a job is stored in {@link google.cloud.scheduler.v1.Job.state|Job.state}; after calling this method it\nwill be set to {@link google.cloud.scheduler.v1.Job.State.ENABLED|Job.State.ENABLED}. A job must be in\n{@link google.cloud.scheduler.v1.Job.State.PAUSED|Job.State.PAUSED} to be resumed.\n",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 131,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "IResumeJobRequest"
+											}
+										},
+										{
+											"id": 132,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "CallOptions"
+											}
+										},
+										{
+											"id": 133,
+											"name": "callback",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "IJob"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IResumeJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 134,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 759,
+																			"character": 76
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												],
+												"name": "Callback"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								},
+								{
+									"id": 135,
+									"name": "resumeJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Resume a job.",
+										"text": "This method reenables a job after it has been {@link google.cloud.scheduler.v1.Job.State.PAUSED|Job.State.PAUSED}. The\nstate of a job is stored in {@link google.cloud.scheduler.v1.Job.state|Job.state}; after calling this method it\nwill be set to {@link google.cloud.scheduler.v1.Job.State.ENABLED|Job.State.ENABLED}. A job must be in\n{@link google.cloud.scheduler.v1.Job.State.PAUSED|Job.State.PAUSED} to be resumed.\n",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 136,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "IResumeJobRequest"
+											}
+										},
+										{
+											"id": 137,
+											"name": "callback",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "IJob"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IResumeJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 138,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 767,
+																			"character": 76
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												],
+												"name": "Callback"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 744,
+									"character": 11
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 754,
+									"character": 11
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 763,
+									"character": 11
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 790,
+									"character": 11
+								}
+							]
+						},
+						{
+							"id": 139,
+							"name": "runJob",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Forces a job to run now.",
+								"text": "When this method is called, Cloud Scheduler will dispatch the job, even\nif the job is already running.\n",
+								"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+							},
+							"signatures": [
+								{
+									"id": 140,
+									"name": "runJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Forces a job to run now.",
+										"text": "When this method is called, Cloud Scheduler will dispatch the job, even\nif the job is already running.\n",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 141,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"shortText": "\n  The request object that will be sent."
+											},
+											"type": {
+												"type": "reference",
+												"name": "IRunJobRequest"
+											}
+										},
+										{
+											"id": 142,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "gax.CallOptions"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "tuple",
+												"elements": [
+													{
+														"type": "reference",
+														"name": "IJob"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IRunJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 143,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 836,
+																			"character": 66
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												]
+											}
+										],
+										"name": "Promise"
+									}
+								},
+								{
+									"id": 144,
+									"name": "runJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Forces a job to run now.",
+										"text": "When this method is called, Cloud Scheduler will dispatch the job, even\nif the job is already running.\n",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 145,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "IRunJobRequest"
+											}
+										},
+										{
+											"id": 146,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "CallOptions"
+											}
+										},
+										{
+											"id": 147,
+											"name": "callback",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "IJob"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IRunJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 148,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 845,
+																			"character": 73
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												],
+												"name": "Callback"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								},
+								{
+									"id": 149,
+									"name": "runJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Forces a job to run now.",
+										"text": "When this method is called, Cloud Scheduler will dispatch the job, even\nif the job is already running.\n",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 150,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "IRunJobRequest"
+											}
+										},
+										{
+											"id": 151,
+											"name": "callback",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "IJob"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IRunJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 152,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 853,
+																			"character": 73
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												],
+												"name": "Callback"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 830,
+									"character": 8
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 840,
+									"character": 8
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 849,
+									"character": 8
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 874,
+									"character": 8
+								}
+							]
+						},
+						{
+							"id": 83,
+							"name": "updateJob",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Updates a job.",
+								"text": "If successful, the updated {@link google.cloud.scheduler.v1.Job|Job} is returned. If the job does\nnot exist, `NOT_FOUND` is returned.\n\nIf UpdateJob does not successfully return, it is possible for the\njob to be in an {@link google.cloud.scheduler.v1.Job.State.UPDATE_FAILED|Job.State.UPDATE_FAILED} state. A job in this state may\nnot be executed. If this happens, retry the UpdateJob request\nuntil a successful response is received.\n",
+								"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+							},
+							"signatures": [
+								{
+									"id": 84,
+									"name": "updateJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Updates a job.",
+										"text": "If successful, the updated {@link google.cloud.scheduler.v1.Job|Job} is returned. If the job does\nnot exist, `NOT_FOUND` is returned.\n\nIf UpdateJob does not successfully return, it is possible for the\njob to be in an {@link google.cloud.scheduler.v1.Job.State.UPDATE_FAILED|Job.State.UPDATE_FAILED} state. A job in this state may\nnot be executed. If this happens, retry the UpdateJob request\nuntil a successful response is received.\n",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 85,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"shortText": "\n  The request object that will be sent."
+											},
+											"type": {
+												"type": "reference",
+												"name": "IUpdateJobRequest"
+											}
+										},
+										{
+											"id": 86,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "gax.CallOptions"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "tuple",
+												"elements": [
+													{
+														"type": "reference",
+														"name": "IJob"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IUpdateJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 87,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 489,
+																			"character": 69
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												]
+											}
+										],
+										"name": "Promise"
+									}
+								},
+								{
+									"id": 88,
+									"name": "updateJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Updates a job.",
+										"text": "If successful, the updated {@link google.cloud.scheduler.v1.Job|Job} is returned. If the job does\nnot exist, `NOT_FOUND` is returned.\n\nIf UpdateJob does not successfully return, it is possible for the\njob to be in an {@link google.cloud.scheduler.v1.Job.State.UPDATE_FAILED|Job.State.UPDATE_FAILED} state. A job in this state may\nnot be executed. If this happens, retry the UpdateJob request\nuntil a successful response is received.\n",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 89,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "IUpdateJobRequest"
+											}
+										},
+										{
+											"id": 90,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "CallOptions"
+											}
+										},
+										{
+											"id": 91,
+											"name": "callback",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "IJob"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IUpdateJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 92,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 498,
+																			"character": 76
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												],
+												"name": "Callback"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								},
+								{
+									"id": 93,
+									"name": "updateJob",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Updates a job.",
+										"text": "If successful, the updated {@link google.cloud.scheduler.v1.Job|Job} is returned. If the job does\nnot exist, `NOT_FOUND` is returned.\n\nIf UpdateJob does not successfully return, it is possible for the\njob to be in an {@link google.cloud.scheduler.v1.Job.State.UPDATE_FAILED|Job.State.UPDATE_FAILED} state. A job in this state may\nnot be executed. If this happens, retry the UpdateJob request\nuntil a successful response is received.\n",
+										"returns": "- The promise which resolves to an array.\n  The first element of the array is an object representing [Job]{@link google.cloud.scheduler.v1.Job}.\n  The promise has a method named \"cancel\" which cancels the ongoing API call.\n"
+									},
+									"parameters": [
+										{
+											"id": 94,
+											"name": "request",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "IUpdateJobRequest"
+											}
+										},
+										{
+											"id": 95,
+											"name": "callback",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"name": "IJob"
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"name": "IUpdateJobRequest"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													},
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 96,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "cloud_scheduler_client.ts",
+																			"line": 506,
+																			"character": 76
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															}
+														]
+													}
+												],
+												"name": "Callback"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 483,
+									"character": 11
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 493,
+									"character": 11
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 502,
+									"character": 11
+								},
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 536,
+									"character": 11
+								}
+							]
+						},
+						{
+							"id": 14,
+							"name": "descriptors",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {
+								"isExported": true
+							},
+							"children": [
+								{
+									"id": 21,
+									"name": "batching",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "cloud_scheduler_client.ts",
+											"line": 55,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 22,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											}
+										}
+									}
+								},
+								{
+									"id": 19,
+									"name": "longrunning",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "cloud_scheduler_client.ts",
+											"line": 54,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 20,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											}
+										}
+									}
+								},
+								{
+									"id": 15,
+									"name": "page",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "cloud_scheduler_client.ts",
+											"line": 52,
+											"character": 8
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 16,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											}
+										}
+									}
+								},
+								{
+									"id": 17,
+									"name": "stream",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "cloud_scheduler_client.ts",
+											"line": 53,
+											"character": 10
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 18,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											}
+										}
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										21,
+										19,
+										15,
+										17
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "cloud_scheduler_client.ts",
+									"line": 51,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								35
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								9,
+								6,
+								5,
+								4,
+								7,
+								3,
+								13,
+								31,
+								23,
+								27
+							]
+						},
+						{
+							"title": "Accessors",
+							"kind": 262144,
+							"children": [
+								45,
+								47,
+								49,
+								43
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								202,
+								69,
+								97,
+								55,
+								51,
+								38,
+								172,
+								153,
+								168,
+								164,
+								186,
+								183,
+								180,
+								193,
+								177,
+								190,
+								199,
+								111,
+								196,
+								125,
+								139,
+								83
+							]
+						},
+						{
+							"title": "Object literals",
+							"kind": 2097152,
+							"children": [
+								14
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "cloud_scheduler_client.ts",
+							"line": 43,
+							"character": 33
+						}
+					]
+				},
+				{
+					"id": 204,
+					"name": "version",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "cloud_scheduler_client.ts",
+							"line": 35,
+							"character": 13
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "require('../../../package.json').version"
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						2
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						204
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "cloud_scheduler_client.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 205,
+			"name": "\"index\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/franzih/code/gcp/nodejs-scheduler/src/v1/index.ts",
+			"children": [
+				{
+					"id": 206,
+					"name": "CloudSchedulerClient",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 2
+				}
+			],
+			"groups": [
+				{
+					"title": "References",
+					"kind": 16777216,
+					"children": [
+						206
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "index.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Modules",
+			"kind": 1,
+			"children": [
+				1,
+				205
+			]
+		}
+	]
+}

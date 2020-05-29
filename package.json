@@ -38,7 +38,9 @@
     "prepare": "npm run compile",
     "pretest": "npm run compile",
     "prelint": "cd samples; npm link ../; npm install",
-    "precompile": "gts clean"
+    "precompile": "gts clean",
+    "typedoc": "typedoc --json api.json src/ --module commonjs --includeDeclarations --ignoreCompilerErrors --excludeExternals",
+    "type2docfx": "type2docfx api.json yml"
   },
   "dependencies": {
     "google-gax": "^2.1.0",
@@ -59,6 +61,8 @@
     "pack-n-play": "^1.0.0-2",
     "sinon": "^9.0.1",
     "ts-loader": "^7.0.0",
+    "type2docfx": "^0.10.3",
+    "typedoc": "^0.17.7",
     "typescript": "^3.8.3",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
