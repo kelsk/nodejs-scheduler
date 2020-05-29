@@ -2,11 +2,30 @@
   "build": {
     "content": [
       {
-        "files": ["**/*.yml"],
+        "files": [
+          "**/*.yml"
+        ],
         "src": "yml",
         "dest": "api"
       }
     ],
-    "dest": "_site"
+    "dest": "_site",
+    "globalMetadata": {
+      "_appTitle": "Google.Cloud.Scheduler.V1",
+      "_disableContribution": true,
+      "_appFooter": " ",
+      "_disableNavbar": true,
+      "_disableBreadcrumb": true,
+      "_enableSearch": false,
+      "_disableToc": true,
+      "_disableSideFilter": true,
+      "_disableAffix": true,
+      "_disableFooter": true,
+      "_rootPath": "/nodejs/reference/scheduler"
+  },
+    "template": [
+      "default",
+      "templates/devsite"
+    ]
   }
 }
