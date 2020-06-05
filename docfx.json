@@ -24,8 +24,7 @@
       "_rootPath": "/nodejs/reference/scheduler"
   },
     "template": [
-      "default",
-      "templates/devsite"
+      "default"
     ]
   }
 }
