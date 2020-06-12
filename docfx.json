@@ -5,7 +5,7 @@
         "files": [
           "**/*.yml"
         ],
-        "src": "yml",
+        "src": "yaml",
         "dest": "api"
       }
     ],
@@ -24,7 +24,8 @@
       "_rootPath": "/nodejs/reference/scheduler"
   },
     "template": [
-      "default"
+      "default",
+      "devsite"
     ]
   }
 }
