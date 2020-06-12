@@ -38,6 +38,7 @@ python3 -m docuploader create-metadata \
   --product-page=$(cat .repo-metadata.json | json product_documentation) \
   --github-repository=$(cat .repo-metadata.json | json repo) \
   --issue-tracker=$(cat .repo-metadata.json | json issue_tracker)
+cp docs.metadata ./_site/docs.metadata
 
 # deploy the docs.
 if [[ -z "$CREDENTIALS" ]]; then
