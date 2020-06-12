@@ -22,7 +22,7 @@ if [[ -z "$CREDENTIALS" ]]; then
   # and don't set NPM_CONFIG_PREFIX.
   export NPM_CONFIG_PREFIX=/home/node/.npm-global
   export PATH="$PATH:/home/node/.npm-global/bin"
-  cd $(dirname $0)/../..
+  cd $(dirname $0)/../../..
 fi
 
 # TODO: run docfx instead of committing _site
